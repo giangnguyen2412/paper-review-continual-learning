@@ -1,3 +1,12 @@
+## TL;DR
+**The approach with a regularization term also has received attention. Learning without forgetting
+(LwF) is one example of this approach, which uses the pseudo-training data from the old task [7].
+Before learning the new task, LwF puts the training data of the new task into the old network,
+and uses the output as pseudo-labels of the pseudo-training data. By optimizing both the pseudotraining data of the old task and the real data of the new task, LwF attempts to prevent catastrophic
+forgetting.**
+
+From: Overcoming Catastrophic Forgetting by Incremental Moment Matching
+
 In paper setting, a CNN has a set of shared parameters θs (e.g., five convolutional layers and two fully 
 connected layers for AlexNet [3] architecture), task-specific parameters for previously learned tasks θo 
 (e.g., the output layer for ImageNet [4] classification and corresponding weights), and randomly initialized 
