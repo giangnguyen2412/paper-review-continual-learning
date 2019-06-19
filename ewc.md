@@ -41,3 +41,7 @@ stay in a region of low error for task A centered around θA∗.
 All the information about task A must therefore have been absorbed into the posterior distribution
 p(θ|DA). This posterior probability must contain information about which parameters were important
 to task A and is therefore the key to implementing EWC. 
+
+**Drawback**
+
+Exactly computing the diagonal of the Fisher requires summing over all possible output labels and thus has complexity linear in the number of outputs. This limits the application of this approach to low-dimensional output spaces.
