@@ -30,3 +30,20 @@ In the last few years, a large number of CL strategies has been proposed. A non-
 In Fig. 1 the Venn diagram of the fuzzy classification of the aforementioned strategies is proposed. It is interesting to note the large space for yet-to-be-explored techniques merging the ideas of the three different categories.
 
 ![](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/images/start/venn_strategies.png)
+
+## To solve catastrophic forgetting
+
+In the paper, `Continual Learning Through Synaptic Intelligence`, authors mentioned that:
+`The problem of alleviating catastrophic forgetting has been
+addressed in many previous studies. These studies can be broadly partitioned into (1) architectural, (2) functional,
+and (3) structural approaches.`
+
+- Architectural approaches to catastrophic forgetting alter
+the architecture of the network to reduce interference between tasks without altering the objective function.
+
+- Functional approaches to catastrophic forgetting add a regularization term to the objective that penalizes changes in
+the input-output function of the neural network.
+
+- The third technique, structural regularization, involves
+penalties on the parameters that encourage them to stay
+close to the parameters for the old task.
