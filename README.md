@@ -7,5 +7,7 @@ A hub for paper reviews in Continual Learning
 ### 2017
 - <a name="todo"></a> Overcoming Catastrophic Forgetting by Incremental Moment Matching (**NIPS2017**) [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/imm.md)
 - <a name="todo"></a> Overcoming catastrophic forgetting in neural networks (EWC) (**PNAS2017**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/ewc.md)
+- <a name="todo"></a> Continual Learning Through Synaptic Intelligence (**ICML2017**) [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/si.md)
 ### 2016
 - <a name="todo"></a> Learning without forgetting (**ECCV2016**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/LwF.md) 
+
