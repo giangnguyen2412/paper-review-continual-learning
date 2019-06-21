@@ -17,8 +17,8 @@ a domain in the literature that is applicable to all areas. In most cases, the t
 used informally to mean a subject area where there are often multiple different tasks
 of the same type or of different types.
 
-## Transfer learning
-### Deep learning in transfer learning
+# Transfer learning
+## Deep learning in transfer learning
 Yosinski et al. [2014] studied the transferability of features in each layer of a deep
 neural network. They argued that the lowest level or the raw input layer is very general as it
 is independent of the task and the network. In contrast, the features from the highest level
@@ -31,7 +31,7 @@ helpful to the target domain learning. Also in the transfer learning setting, Be
 focused on unsupervised pre-training of representations and discussed potential challenges
 of deep learning for transfer learning.
 
-## vs Transfer learning
+## Life-long learning vs Transfer learning
 Transfer learning is different from lifelong learning in the following aspects. We want to
 note that since the literature on transfer learning is extensive, the differences described here
 may not be applicable to every individual transfer learning paper.
