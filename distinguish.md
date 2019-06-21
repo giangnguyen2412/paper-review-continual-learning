@@ -17,7 +17,7 @@ a domain in the literature that is applicable to all areas. In most cases, the t
 used informally to mean a subject area where there are often multiple different tasks
 of the same type or of different types.
 
-
+## Transfer learning
 ### Deep learning in transfer learning
 Yosinski et al. [2014] studied the transferability of features in each layer of a deep
 neural network. They argued that the lowest level or the raw input layer is very general as it
