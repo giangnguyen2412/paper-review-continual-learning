@@ -94,3 +94,35 @@ help of knowledge learned in the past from previous tasks. That is why we regard
 or incremental multi-task learning as lifelong learning.
 
 # Online learning
+Online learning (also known as incremental learning) is a learning paradigm where the
+training data points arrive in a sequential order. When a new data point arrives, the existing
+model is quickly updated to produce the best model so far. Its goal is thus the same as
+classic learning, i.e., to optimize the performance on the given learning task. It is normally
+used when it is computationally infeasible to train over the entire dataset or the practical
+applications cannot wait until a large amount of training data is collected. This is in contrast
+with the classic batch learning where all training data is available at the beginning.
+
+One application of their problem is to predict users’ preferences towards
+products in a social network.
+
+## Life-long learning vs Online learning
+Although online learning deals with future data in streaming or in a sequential order, its
+objective is very different from lifelong machine learning. Online learning still performs
+the same learning task over time. Its objective is to learn more efficiently with the data
+arriving incrementally. Lifelong learning, on the other hand, aims to learn from a sequence
+of different tasks, retain the knowledge learned so far, and use the knowledge to help future
+task learning. Online learning does not do any of these.
+
+# Reinforcement learning
+Reinforcement Learning [Kaelbling et al., 1996, Sutton and Barto, 1998] is the problem
+where an agent learns actions through trial and error interactions with a dynamic environment. In each interaction step, the agent receives input that contains the current state of
+the environment. The agent chooses an action from a set of possible actions. The action
+changes the state of the environment. Then, the agent gets a value of this state transition,
+which can be reward or penalty. This process repeats as the agent learns a trajectory of
+actions to optimize its objective. The goal of reinforcement learning is to learn an optimal
+policy that maps states to actions that maximizes the long run sum of rewards. 
+
+## Life-long learning vs Reinforcement learning
+A reinforcement learning agent learns by trial and error in its interactions with the environment which gives feedback or rewards to the agent. The learning is limited to one
+task and one environment. There is no concept of accumulating knowledge to help future
+learning tasks.
