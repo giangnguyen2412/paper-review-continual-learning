@@ -60,3 +60,14 @@ the past, use it. If not, just learn using the current domain data. However, sin
 typically involves a large number of past domains, the system has a large amount of
 past knowledge. The new learning task is very likely to find some pieces of the past
 knowledge useful.
+
+# Multi-task learning
+Multi-task learning learns multiple related tasks simultaneously, aiming at achieving a
+better performance by using the relevant information shared by multiple tasks [Caruana,
+1997, Chen et al., 2009, Li et al., 2009]. The rationale is to introduce inductive bias in
+the joint hypothesis space of all tasks by exploiting the task relatedness structure. It also
+prevents overfitting in the individual task and thus has a better generalization ability. Note
+that unlike that in transfer learning, we mostly use the term multiple tasks rather than
+multiple domains as much of the existing research in the area is based on multiple similar
+tasks from the same domain of application. We now define multi-task learning, which is
+also referred to as batch multi-task learning.
