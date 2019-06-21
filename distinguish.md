@@ -71,3 +71,26 @@ that unlike that in transfer learning, we mostly use the term multiple tasks rat
 multiple domains as much of the existing research in the area is based on multiple similar
 tasks from the same domain of application. We now define multi-task learning, which is
 also referred to as batch multi-task learning.
+## Deep learning in Multi-task Learning
+In recent years, deep neural network (DNN) has also been applied to multi-task learning.
+For example, Liu et al. [2015b] proposed a multi-task DNN for learning representations
+across multiple tasks. In their proposed multi-task DNN model, the lower neural network layers are shared
+across multiple tasks while the top layers are task-dependent.
+
+## Life-long learning vs Multi-task learning
+The similarity of (batch) multi-task learning and lifelong learning is that they both aim to
+use some shared information across tasks to help learning. The difference is that multi-task
+learning is still working in the traditional paradigm. Instead of optimizing a single task, it
+optimizes several tasks simultaneously. If we regard the several tasks as one bigger task,
+it reduces to the traditional optimization which is actually the case in most optimization
+formulations of MTL. It does not accumulate any knowledge over time and it does not use
+the concept of continuous learning, which are the key characteristics of LML. Although
+one can argue that MTL can jointly optimize all tasks whenever a new task is added, it
+is quite difficult to optimize all tasks in the world simultaneously in a single process as
+they are too numerous and diverse. Some local and distributed optimizations are needed.
+Global optimization is also not efficient in terms of both the time and resources. Thus, it
+is important to retain knowledge to enable incremental learning of multiple tasks with the
+help of knowledge learned in the past from previous tasks. That is why we regard online
+or incremental multi-task learning as lifelong learning.
+
+# Online learning
