@@ -1,0 +1,3 @@
+- Life-long learning
+- Continual learning
+- Continous learning
