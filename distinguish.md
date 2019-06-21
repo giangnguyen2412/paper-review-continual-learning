@@ -18,6 +18,18 @@ used informally to mean a subject area where there are often multiple different 
 of the same type or of different types.
 
 
+### Deep learning in transfer learning
+Yosinski et al. [2014] studied the transferability of features in each layer of a deep
+neural network. They argued that the lowest level or the raw input layer is very general as it
+is independent of the task and the network. In contrast, the features from the highest level
+depend on the task and cost function, and thus are specific. For example, in a supervised learning task, each output unit corresponds to a particular class. From the lowest level to
+the highest level, there is a transfer from generality to specificity. To experiment the transferability of features in each layer in a deep neural network, they trained a neural network
+from the source domain and copy the first n layers to the neural network for the target
+domain. The remaining layers in the target neural network are randomly initialized. They
+showed that transferred features in the neural network from the source domain are indeed
+helpful to the target domain learning. Also in the transfer learning setting, Bengio [2012]
+focused on unsupervised pre-training of representations and discussed potential challenges
+of deep learning for transfer learning.
 
 ## vs Transfer learning
 Transfer learning is different from lifelong learning in the following aspects. We want to
