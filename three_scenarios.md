@@ -14,6 +14,8 @@ methods are difficult. They propose 3 new scenarios for evaluation:
 
 For example, with Split MNIST, we can divide the task into 3 different scenarios:
 
+![](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/images/three%20scenarios/table2.JPG)
+
 Authors also reviewed techniques for Continual Learning to deal with catastrophic forgetting:
 
 - Task specific Components: explicitly define a different sub-network
