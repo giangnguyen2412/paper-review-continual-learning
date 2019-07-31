@@ -8,7 +8,7 @@ CL is also frequently used interchangably with other [terms](https://github.com/
 
 CL is sometimes misunderstood by other domains but pretty similar, refer [here](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/distinguish.md) to distinguish.
 
-And to evaluate a CL system, some benchmarks should be mentioned [here](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/evaluate.md)
+And to evaluate a CL system, some benchmarks should be mentioned [here](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/evaluate.md) and reinforced by V. Lomonaco [here](https://vlomonaco.github.io/core50/benchmarks.html)
 
 ## Papers
 ### 2019
