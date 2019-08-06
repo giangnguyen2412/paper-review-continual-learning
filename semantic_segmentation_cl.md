@@ -79,7 +79,12 @@ final model is referred to as M(16 -> 20). In this case freezing the encoder and
 network: distilling the knowledge from the previous model
 when the encoder is fixed guides the decoder to modify only
 the responses for the new class.
-
+## Novelties 
+- re-frame the distillation loss concept used in
+other fields and propose a novel approach where the distillation loss is applied to the intermediate features level.
+- **freezing the encoder part of the network to preserve the feature extraction capabilities**.
+- first
+work on incremental learning for semantic segmentation
 ## Personal thoughts
 ### Pros
 - First work applying CL with Semantic Segmentation
