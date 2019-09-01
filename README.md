@@ -24,4 +24,7 @@ And to evaluate a CL system, some benchmarks should be mentioned [here](https://
 ### 2016
 - <a name="todo"></a> Learning without forgetting (**ECCV2016**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/LwF.md) 
 
+### Special
+- <a name="todo"></a> Distilling the Knowledge in a Neural Network - Geoffrey Hinton & Oriol Vinyals (**2015**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/distillation.md) 
+
 **Contributions are warmly wellcome and appreciated**
