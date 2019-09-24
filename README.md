@@ -15,6 +15,7 @@ And to evaluate a CL system, some benchmarks should be mentioned [here](https://
 - <a name="todo"></a> Incremental Learning Techniques for Semantic Segmentation (**ICCV Workshop 2019**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/semantic_segmentation_cl.md) 
 - <a name="todo"></a> Lifelong Learning Starting From Zero (**AGI 2019**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/Lifelong-Learning-Starting-From-Zero.md) 
 - <a name="todo"></a> Continual Learning for Robotics (**https://arxiv.org/abs/1907.00182**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/cl_robotics.md) 
+- <a name="todo"></a> Lifelong GAN: Continual Learning for Conditional Image Generation (**arxiv**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/lifelong_gans.md) 
 ### 2018
 - <a name="todo"></a> Three scenarios for continual learning (**NeurIPS Continual Learning workshop 2018**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/three_scenarios.md)
 ### 2017
