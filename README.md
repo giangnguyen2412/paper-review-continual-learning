@@ -19,6 +19,7 @@ And to evaluate a CL system, some benchmarks should be mentioned [here](https://
 - <a name="todo"></a> Three scenarios for continual learning (**NeurIPS Continual Learning workshop 2018**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/three_scenarios.md)
 ### 2017
 - <a name="todo"></a> Overcoming Catastrophic Forgetting by Incremental Moment Matching (**NIPS2017**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/imm.md)
+- <a name="todo"></a> Continual Learning in Generative Adversarial Nets (**arxiv**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/cont_gans.md)
 - <a name="todo"></a> Overcoming catastrophic forgetting in neural networks (EWC) (**PNAS2017**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/ewc.md)
 - <a name="todo"></a> Continual Learning Through Synaptic Intelligence (**ICML2017**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/si.md)
 ### 2016
