@@ -12,6 +12,7 @@ And to evaluate a CL system, some benchmarks should be mentioned [here](https://
 
 ## Papers
 ### 2019
+- <a name="todo"></a> Task-Free Continual Learning (**CVPR2019**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/tfcl.md)
 - <a name="todo"></a> Large Scale Incremental Learning (**CVPR2019**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/lsil.md) 
 - <a name="todo"></a> Toward Understanding Catastrophic Forgetting in Continual Learning (**arxiv**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/understand_cf.md) 
 - <a name="todo"></a> Incremental Learning Techniques for Semantic Segmentation (**ICCV Workshop 2019**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/semantic_segmentation_cl.md) 
