@@ -1,0 +1,14 @@
+# Task-Free Continual Learning
+
+Methods proposed in the literature towards continual deep learning typically operate in a task-based sequential learning setup.
+A sequence of tasks is learned, one at a time, with all data of current task available but not of previous or future tasks. 
+Task boundaries and identities are known at all times. This setup, however, is rarely encountered in practical applications. 
+Therefore authors investigate how to transform continual learning to an online setup. They develop a system that keeps on learning over 
+time in a streaming fashion, with data distributions gradually changing and without the notion of separate tasks. 
+
+To this end, they build on the work on Memory Aware Synapses, and show how this method can be made online by providing a
+protocol to decide 
+
+1) when to update the importance weights, 
+2) which data to use to update them, and 
+3) how to accumulate the importance weights at each update step.
