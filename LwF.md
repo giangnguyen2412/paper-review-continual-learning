@@ -46,3 +46,16 @@ to joint training, except that our method does not need
 the old task’s images and labels.
 ![](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/images/learning%20without%20forgetting/1.JPG)
 ![](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/images/learning%20without%20forgetting/2.JPG)
+
+**It should be noted that the recored prediction of the old model on the new data is is soft-label. They use the temperate from Knowled Distillation to encourage the student to mimic teacher's behaviors**
+
+There exist some limitations in LwF. First, for preserving the performance
+on old tasks, the target model adapts to a new task with the constraint of
+mimicking the output of Original CNN as much as possible. Though sometimes
+this constraint provides useful regularization to the cases with rare new samples,
+it is also likely to hinder the adaptation to the new task. Second, the performance
+on old tasks degrades a lot when the model is exposed to a long sequence of
+tasks for different domains [3] since the loss for old tasks is computed on the new
+coming data which is likely to be drawn from a significantly different distribution
+compared to the previous data.
+
