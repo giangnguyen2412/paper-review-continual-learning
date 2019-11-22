@@ -20,6 +20,7 @@ And to evaluate a CL system, some benchmarks should be mentioned [here](https://
 - <a name="todo"></a> Continual Learning for Robotics (**https://arxiv.org/abs/1907.00182**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/cl_robotics.md) 
 - <a name="todo"></a> Lifelong GAN: Continual Learning for Conditional Image Generation (**arxiv**) - [review ](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/lifelong_gans.md) 
 ### 2018
+- <a name="todo"></a> Lifelong Learning via Progressive Distillation and Retrospection (**ECCV 2018**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/retro_distill.md)
 - <a name="todo"></a> Three scenarios for continual learning (**NeurIPS Continual Learning workshop 2018**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/three_scenarios.md)
 - <a name="todo"></a> Measuring Catastrophic Forgetting in Neural Networks (**AAAI 2018**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/measure_cf.md)
 ### 2017
