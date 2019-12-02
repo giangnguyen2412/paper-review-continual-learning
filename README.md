@@ -1,5 +1,5 @@
 # paper-review-continual-learning
-A hub for paper reviews in Continual Learning
+A hub for paper reviews in Continual Learning (Lifelong Learning/Incremental Learning)
 
 ## Brief overview
 To start with CL, break your mind first with [some notable things](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/start.md)
@@ -9,6 +9,8 @@ CL is also frequently used interchangably with other [terms](https://github.com/
 CL is sometimes misunderstood by other domains but pretty similar, refer [here](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/distinguish.md) to distinguish.
 
 And to evaluate a CL system, some benchmarks should be mentioned [here](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/evaluate.md) and reinforced by V. Lomonaco [here](https://vlomonaco.github.io/core50/benchmarks.html)
+
+However, the gap in Continual learning is that **Humans can learn a variety of concepts and skills incrementally over the course of their lives while exhibiting an array of desirable properties, such as non-forgetting, concept rehearsal, forward transfer and backward transfer of knowledge, few-shot learning, and selective forgetting. However, current methods are mostly focusing on addressing catastrophic forgetting. From that, we can argue that we have a long long way to go if we wanna achieve the real life-long learning ability.**
 
 ## Papers
 ### 2019
