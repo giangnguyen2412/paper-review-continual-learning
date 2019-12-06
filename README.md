@@ -8,7 +8,7 @@ CL is also frequently used interchangably with other [terms](https://github.com/
 
 CL is sometimes misunderstood by other domains but pretty similar, refer [here](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/distinguish.md) to distinguish.
 
-And to evaluate a CL system, some benchmarks should be mentioned [here](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/evaluate.md) and reinforced by V. Lomonaco [here](https://vlomonaco.github.io/core50/benchmarks.html)
+And to evaluate a CL system, some benchmarks should be mentioned [here](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/evaluate.md) and reinforced by V. Lomonaco [here](https://vlomonaco.github.io/core50/benchmarks.html). Another benchmark to be considerd is could be refer [here](https://arxiv.org/abs/1810.12488).
 
 However, the gap in Continual learning is that **Humans can learn a variety of concepts and skills incrementally over the course of their lives while exhibiting an array of desirable properties, such as non-forgetting, concept rehearsal, forward transfer and backward transfer of knowledge, few-shot learning, and selective forgetting. However, current methods are mostly focusing on addressing catastrophic forgetting. From that, we can argue that we have a long long way to go if we wanna achieve the real life-long learning ability.**
 
@@ -25,6 +25,7 @@ However, the gap in Continual learning is that **Humans can learn a variety of c
 ### 2018
 - <a name="todo"></a> Lifelong Learning via Progressive Distillation and Retrospection (**ECCV 2018**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/retro_distill.md)
 - <a name="todo"></a> Three scenarios for continual learning (**NeurIPS Continual Learning workshop 2018**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/three_scenarios.md)
+- <a name="todo"></a> Re-evaluating Continual Learning Scenarios: A Categorization and Case for Strong Baselines (**NeurIPS Continual Learning workshop 2018**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/re-evaluate.md)
 - <a name="todo"></a> Measuring Catastrophic Forgetting in Neural Networks (**AAAI 2018**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/measure_cf.md)
 ### 2017
 - <a name="todo"></a> Overcoming Catastrophic Forgetting by Incremental Moment Matching (**NIPS2017**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/imm.md)
