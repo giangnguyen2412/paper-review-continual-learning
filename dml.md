@@ -17,3 +17,5 @@ term of loss if the average KL_div loss of all the N-1 networks with the i-th ne
 - The experiments are on CIFAR-100 and Market-1501. However, when they compare with Knowledge distillation, I dont think this comparison
 is cogent. However, this should benefit continual learning, comparing to knowledge distilaltion.
 
+- They also prove that using more numbers of networks (bigger cohorts) results in better performance in a single network.
+
