@@ -28,6 +28,7 @@ However, the gap in Continual learning is that **Humans can learn a variety of c
 - <a name="todo"></a> Re-evaluating Continual Learning Scenarios: A Categorization and Case for Strong Baselines (**NeurIPS Continual Learning workshop 2018**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/re-evaluate.md)
 - <a name="todo"></a> Measuring Catastrophic Forgetting in Neural Networks (**AAAI 2018**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/measure_cf.md)
 ### 2017
+- <a name="todo"></a> iCaRL: Incremental Classifier and Representation Learning (**CVPR2017**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/icarl.md)
 - <a name="todo"></a> Overcoming Catastrophic Forgetting by Incremental Moment Matching (**NIPS2017**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/imm.md)
 - <a name="todo"></a> Continual Learning in Generative Adversarial Nets (**arxiv**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/cont_gans.md)
 - <a name="todo"></a> Overcoming catastrophic forgetting in neural networks (EWC) (**PNAS2017**) - [review](https://github.com/luulinh90s/paper-review-continual-learning/blob/master/ewc.md)
